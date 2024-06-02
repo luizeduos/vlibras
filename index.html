@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Meu Site com VLibras</title>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+  <style>
+    /* Estilos personalizados para o site */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #00AEEF;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    main {
+      padding: 20px;
+    }
+    footer {
+      background-color: #00AEEF;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    .vlibras-logo {
+      display: none;
+    }
+    .vw-plugin-top-wrapper {
+      background-color: #00AEEF;
+      padding: 10px;
+      text-align: center;
+    }
+    .vw-plugin-bottom-wrapper {
+      background-color: #00AEEF;
+      padding: 10px;
+      text-align: center;
+    }
+    .person-card {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 40px;
+    }
+    .person-card img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+    .person-card p {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Meu Site com VLibras</h1>
+    <p>Um site acessível para todos</p>
+  </header>
+  <main>
+    <h1>Sobre Pessoas com Deficiência</h1>
+    <p>Pessoas com deficiência são indivíduos extraordinários que enfrentam desafios diários com determinação e coragem. Suas habilidades e potenciais transcendem as limitações físicas, sensoriais ou cognitivas que possam ter. Cada pessoa com deficiência é única, com talentos, sonhos e perspectivas que enriquecem nossa sociedade.</p>
+  
+    <p>A inclusão e o respeito são fundamentais para criar um ambiente em que todas as pessoas possam participar plenamente da vida. Através da acessibilidade, da empatia e da conscientização, podemos quebrar barreiras e construir uma sociedade mais igualitária.</p>
+    
+    <p>É importante lembrar que a deficiência não define uma pessoa. Ela é apenas uma parte de sua identidade. Pessoas com deficiência são capazes de realizar grandes feitos, contribuir para suas comunidades e alcançar seus objetivos. Elas merecem oportunidades iguais, apoio e respeito, para que possam mostrar seu verdadeiro potencial.</p>
+    
+    <p>Ao reconhecer o valor e a diversidade das pessoas com deficiência, estamos construindo um mundo mais inclusivo, onde todos têm a chance de brilhar. É nossa responsabilidade promover a igualdade e garantir que todas as vozes sejam ouvidas, independente de suas habilidades ou limitações.</p>
+    
+    <p>Vamos celebrar a diversidade, valorizar as habilidades de cada indivíduo e trabalhar juntos para criar uma sociedade mais inclusiva, onde todos tenham a oportunidade de florescer e contribuir de maneira significativa.</p>
+    <div class="person-card">
+      <div>
+        <img src="https://img.freepik.com/free-photo/full-shot-blind-woman-crosswalk-with-cane_23-2149438576.jpg?t=st=1717354715~exp=1717358315~hmac=939c059969b52ee7369c3d0eada83e6e115d5919fbe531b4f0f0cf241e821348&w=360" alt="Pessoa com deficiência visual">
+        <p>Joana - Deficiência Visual</p>
+      </div>
+      <div>
+        <img src="https://img.freepik.com/free-photo/front-view-smiley-doctor-holding-hearing-aids_23-2149706000.jpg?t=st=1717354669~exp=1717358269~hmac=c70bd81563d6d2ff541d8598c2c5dd156ac294750611d9ff44568bf01ec54e00&w=740" alt="Pessoa com deficiência auditiva">
+        <p>Maria - Deficiência Auditiva</p>
+      </div>
+      <div>
+        <img src="https://img.freepik.com/free-photo/lifestyle-child-wheelchair_23-2149158037.jpg?t=st=1717354740~exp=1717358340~hmac=5b2e1935d80fe8d3d794616d31f323fd18b4c0c0ffae069b5e62239dd6d00d70&w=740" alt="Pessoa com deficiência motora">
+        <p>Julia - Deficiência Motora</p>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>Desenvolvido por Luiz Eduardo</p>
+  </footer>
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+      <div class="vw-plugin-bottom-wrapper"></div>
+    </div>
+  </div>
+</body>
+</html>
